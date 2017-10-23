@@ -14,7 +14,7 @@ use constant HOSTNAME => qx{hostname};
 
 my %O = (
   'listen-host'              => '127.0.0.1',
-  'listen-port'              => 8080,
+  'listen-port'              => 8111,
   'listen-clients'           => 30,
   'listen-max-req-per-child' => 100,
 );
